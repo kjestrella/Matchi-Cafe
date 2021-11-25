@@ -1,0 +1,30 @@
+.nav {
+  &__list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    font-size: $default-font;
+    background-color: $primary-color;
+    height: 10vh;
+    padding: 0 4rem;
+  }
+
+  &__logo {
+    flex: 1;
+
+    a {
+      text-decoration: none;
+      color: $white;
+    }
+  }
+
+  &__item {
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $white;
+  }
+}
