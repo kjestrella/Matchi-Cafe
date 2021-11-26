@@ -12,11 +12,9 @@ body {
   box-sizing: border-box; }
 
 section {
-  padding: 12rem 0; }
-
-main {
-  max-width: 90rem;
-  margin: 0 auto; }
+  max-width: 96rem;
+  margin: 0 auto;
+  padding: 8rem 0; }
 
 body {
   font-family: "Outfit", sans-serif;
@@ -117,9 +115,6 @@ body {
 
 .section-about__img--box {
   display: flex;
-  gap: 2rem;
-  background-color: #74c69d;
-  margin-bottom: 2rem;
-  width: 50%; }
+  margin-bottom: 2rem; }
   .section-about__img--box img {
-    width: 100%; }
+    width: 50%; }
