@@ -1,0 +1,17 @@
+.section-about {
+  &__content {
+  }
+
+  &__img--box {
+    display: flex;
+
+    gap: 2rem;
+    background-color: $primary-color;
+    margin-bottom: 2rem;
+    width: 50%;
+
+    img {
+      width: 100%;
+    }
+  }
+}

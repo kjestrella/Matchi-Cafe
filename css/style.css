@@ -11,6 +11,13 @@ html {
 body {
   box-sizing: border-box; }
 
+section {
+  padding: 12rem 0; }
+
+main {
+  max-width: 90rem;
+  margin: 0 auto; }
+
 body {
   font-family: "Outfit", sans-serif;
   font-weight: 400;
@@ -26,8 +33,15 @@ body {
     font-weight: 300;
     margin-bottom: 2rem; }
 
+.secondary-heading {
+  font-size: 4.4rem;
+  font-weight: 700;
+  margin-bottom: 2rem; }
+
 .para {
   font-size: 1.4rem; }
+  .para:not(:last-child) {
+    margin-bottom: 2rem; }
 
 .btn, .btn:link, .btn:visited {
   text-decoration: none;
@@ -100,3 +114,12 @@ body {
 .nav__link {
   text-decoration: none;
   color: #f8f9fa; }
+
+.section-about__img--box {
+  display: flex;
+  gap: 2rem;
+  background-color: #74c69d;
+  margin-bottom: 2rem;
+  width: 50%; }
+  .section-about__img--box img {
+    width: 100%; }

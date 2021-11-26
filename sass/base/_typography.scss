@@ -23,6 +23,16 @@ body {
   }
 }
 
+.secondary-heading {
+  font-size: 4.4rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
 .para {
   font-size: $default-font;
+
+  &:not(:last-child) {
+    margin-bottom: 2rem;
+  }
 }
