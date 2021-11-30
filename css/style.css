@@ -14,7 +14,7 @@ body {
 section {
   max-width: 96rem;
   margin: 0 auto;
-  padding: 8rem 0; }
+  padding: 12rem 0; }
 
 body {
   font-family: "Outfit", sans-serif;
@@ -34,6 +34,11 @@ body {
 .secondary-heading {
   font-size: 4.4rem;
   font-weight: 700;
+  margin-bottom: 2rem; }
+
+.tertiary-heading {
+  font-size: 3.6rem;
+  font-weight: 400;
   margin-bottom: 2rem; }
 
 .para {
@@ -77,6 +82,36 @@ body {
   z-index: -1;
   transition: all 0.4s; }
 
+.menu__drinks,
+.menu__snacks {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 4rem; }
+
+.menu__drinks__card,
+.menu__snacks__card {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(180deg, #95d5b2, #f8f9fa); }
+  .menu__drinks__card img,
+  .menu__snacks__card img {
+    width: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+    height: 250px;
+    margin-bottom: 2rem; }
+  .menu__drinks__card--title,
+  .menu__snacks__card--title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem; }
+  .menu__drinks__card--price,
+  .menu__snacks__card--price {
+    margin-bottom: 1.2rem; }
+  .menu__drinks__card--desc,
+  .menu__snacks__card--desc {
+    padding: 1rem; }
+
 .header {
   height: 85vh;
   background-image: linear-gradient(to right bottom, rgba(73, 80, 87, 0.6), rgba(33, 37, 41, 0.9)), url(../img/hero.jpg);
@@ -115,6 +150,21 @@ body {
 
 .section-about__img--box {
   display: flex;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  gap: 1.2rem; }
   .section-about__img--box img {
-    width: 50%; }
+    width: 50%;
+    vertical-align: middle;
+    object-fit: cover;
+    height: 500px; }
+
+.section-rewards {
+  background-image: linear-gradient(to left, rgba(73, 80, 87, 0.5), rgba(33, 37, 41, 0.5)), url(../img/rewards.jpg);
+  background-size: cover;
+  background-position: center; }
+  .section-rewards__content {
+    color: #f8f9fa;
+    width: 40%;
+    padding: 0 4rem; }
+    .section-rewards__content:nth-child(2) {
+      margin-bottom: 2rem; }

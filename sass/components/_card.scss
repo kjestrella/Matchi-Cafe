@@ -1,0 +1,35 @@
+.menu__drinks,
+.menu__snacks {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.menu__drinks__card,
+.menu__snacks__card {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(180deg, $primary-color--light, $white);
+
+  img {
+    width: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+    height: 250px;
+    margin-bottom: 2rem;
+  }
+
+  &--title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+  }
+
+  &--price {
+    margin-bottom: 1.2rem;
+  }
+
+  &--desc {
+    padding: 1rem;
+  }
+}

@@ -5,9 +5,37 @@
   &__img--box {
     display: flex;
     margin-bottom: 2rem;
+    gap: 1.2rem;
 
     img {
       width: 50%;
+      vertical-align: middle;
+      object-fit: cover;
+      height: 500px;
+    }
+  }
+}
+
+.section-menu {
+}
+
+.section-rewards {
+  background-image: linear-gradient(
+      to left,
+      rgba($grey--2, 0.5),
+      rgba($grey--3, 0.5)
+    ),
+    url(../img/rewards.jpg);
+  background-size: cover;
+  background-position: center;
+
+  &__content {
+    color: $white;
+    width: 40%;
+    padding: 0 4rem;
+
+    &:nth-child(2) {
+      margin-bottom: 2rem;
     }
   }
 }
